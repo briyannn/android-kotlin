@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ZWallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_login">Login</string>
+    <string name="text_login_desc">Login to your existing account to access all the features in Zwallet.</string>
+    <string name="hint_email">Enter your email address</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="slogans">Make easy your payment</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up!</string>
+    <string name="text_reset_password">Reset Password</string>
+    <string name="text_forgot_password_desc">Enter your Zwallet e-mail so we can send you a password reset link.</string>
+    <string name="confirm">Confirm</string>
+    <string name="text_new_password_desc">Create and confirm your new password so you can login to Zwallet.</string>
+    <string name="hint_create_new_password">Create new password</string>
+    <string name="hint_confirm_new_password">Confirm new password</string>
+    <string name="text_change_password">Change Password</string>
+    <string name="text_sign_up">Sign Up</string>
+    <string name="text_sign_up_desc">Create your account to access Zwallet.</string>
+    <string name="hint_name">Enter your username</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="let_s_login">Let’s Login</string>
+    <string name="text_phone">+62 813 1553 9773</string>
+    <string name="text_balance">Rp250.000</string>
+    <string name="text_balance_label">Balance</string>
+    <string name="notification_image">Notification Image</string>
+    <string name="text_name">Briyan Dwi Angga</string>
+    <string name="text_hello">Hello,</string>
+    <string name="title_activity_main_navigation">MainNavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="personalProfileDesc">We got your personal information from the sign up process. If you want to make changes on your information, contact our support</string>
+    <string name="otpTitle">Please input your OTP!</string>
+    <string name="otpDesc">We have sent your OTP (One Time Password) code via email</string>
+</resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:id="@+id/appBarGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profileImage"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_baseline_directions_bike_24"
+            app:shapeAppearanceOverlay="@style/RoundCornerOverlay" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/darkGreyColor"
+                android:text="@string/text_hello"
+                style="@style/TextView"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/textUserName"
+                style="@style/TextView.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/text_name"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_notifications_none_24"
+            android:contentDescription="@string/notification_image" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerBalance"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appBarGroup"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="25dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/background_balance_card"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/greyColor"
+            android:text="@string/text_balance_label"
+            style="@style/TextView"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/textUserBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/text_balance"
+            style="@style/TextView.Bold"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/textUserPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/greyColor"
+            android:text="@string/text_phone"
+            style="@style/TextView"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/groupButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/containerBalance"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transfer"
+            style="@style/TextView.Medium"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@drawable/background_button"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/ic_baseline_arrow_upward_24"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="24dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Up"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            style="@style/TextView.Medium"
+            android:textAllCaps="false"
+            android:background="@drawable/background_button"
+            android:drawableStart="@drawable/ic_baseline_arrow_upward_24"
+            android:paddingVertical="15dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="24dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textTransactionHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transaction History"
+        android:textSize="18sp"
+        style="@style/TextView.Medium"
+        android:textColor="#514F5B"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/groupButton" />
+
+    <TextView
+        android:id="@+id/textTransactionAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View All"
+        style="@style/TextView.MainActivity.ViewAll"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/groupButton" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTransactionHistory"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerTransaction"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:isScrollContainer="true"
+                android:scrollbars="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:listitem="@layout/item_transaction_home"/>
+            <ProgressBar
+                android:id="@+id/loadingIndicator"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:indeterminateTint="@color/primaryColor"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

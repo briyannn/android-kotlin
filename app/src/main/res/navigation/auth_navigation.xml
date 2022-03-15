@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.bcas_briyan.zwallet.ui.auth.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/loginActionRegister"
+            app:destination="@+id/registerFragment"/>
+        <action
+            android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.bcas_briyan.zwallet.ui.auth.register.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register"/>
+        <fragment
+            android:id="@+id/forgotPasswordFragment"
+            android:name="com.bcas_briyan.zwallet.ui.auth.forgot.ForgotPasswordFragment"
+            android:label="fragment_forgot_password"
+            tools:layout="@layout/fragment_forgot_password" >
+            <action
+                android:id="@+id/action_forgotPasswordFragment_to_changeNewPasswordFragment"
+                app:destination="@id/changeNewPasswordFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/changeNewPasswordFragment"
+            android:name="com.bcas_briyan.zwallet.ui.auth.forgot.ChangeNewPasswordFragment"
+            android:label="fragment_change_new_password"
+            tools:layout="@layout/fragment_change_new_password" />
+</navigation>

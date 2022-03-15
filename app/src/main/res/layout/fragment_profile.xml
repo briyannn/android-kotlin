@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:id="@+id/greetings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="15dp"
+        android:layout_margin="15dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            app:shapeAppearanceOverlay="@style/RoundCornerOverlay"
+            android:src="@drawable/ic_baseline_directions_bike_24"/>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/textEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:drawableLeft="@drawable/ic_baseline_edit_24"
+                android:layout_gravity="center"
+                style="@style/TextView.fifthSizeText"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/textUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                style="@style/TextView.firstSizeText"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/textPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+62822 1234 5678"
+                style="@style/TextView.fourthSizeText"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="15dp"
+        android:layout_margin="15dp"
+        app:layout_constraintTop_toBottomOf="@id/greetings"
+        >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/btnPersonalInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="14dp"
+            android:background="@drawable/background_button_menu">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Information"
+                style="@style/TextView.fifthSizeText"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"/>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/btnChangePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="14dp"
+            android:background="@drawable/background_button_menu">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Password"
+                style="@style/TextView.fifthSizeText"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"/>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/btnChangePin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_button_menu">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Pin"
+                style="@style/TextView.fifthSizeText"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"/>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/btnNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_button_menu">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notification"
+                style="@style/TextView.fifthSizeText"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_button_menu">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                style="@style/TextView.fifthSizeText"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/arrowForward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
