@@ -7,24 +7,32 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.bcas_briyan.zwallet.ui.auth.login.LoginFragment"
+        android:name="com.bcas_briyan.zwallet.ui.layout.auth.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login">
+
         <action
             android:id="@+id/loginActionRegister"
             app:destination="@+id/registerFragment"/>
         <action
             android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
             app:destination="@id/forgotPasswordFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_createPinFragment"
+            app:destination="@id/createPinFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.bcas_briyan.zwallet.ui.auth.register.RegisterFragment"
+        android:name="com.bcas_briyan.zwallet.ui.layout.auth.register.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register"/>
+        <action
+            android:id="@+id/action_registerFragment_to_otpFragment"
+            app:destination="@id/otpFragment" />
         <fragment
             android:id="@+id/forgotPasswordFragment"
-            android:name="com.bcas_briyan.zwallet.ui.auth.forgot.ForgotPasswordFragment"
+            android:name="com.bcas_briyan.zwallet.ui.layout.auth.forgot.ForgotPasswordFragment"
             android:label="fragment_forgot_password"
             tools:layout="@layout/fragment_forgot_password" >
             <action
@@ -33,7 +41,23 @@
         </fragment>
         <fragment
             android:id="@+id/changeNewPasswordFragment"
-            android:name="com.bcas_briyan.zwallet.ui.auth.forgot.ChangeNewPasswordFragment"
+            android:name="com.bcas_briyan.zwallet.ui.layout.auth.forgot.ChangeNewPasswordFragment"
             android:label="fragment_change_new_password"
             tools:layout="@layout/fragment_change_new_password" />
+    <fragment
+        android:id="@+id/createPinFragment"
+        android:name="com.bcas_briyan.zwallet.ui.layout.auth.pin.CreateNewPinFragment"
+        android:label="CreatePinFragment" >
+    <action
+        android:id="@+id/action_createPinFragment_to_createPinSuccessFragment2"
+        app:destination="@id/createPinSuccessFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/createPinSuccessFragment2"
+        android:name="com.bcas_briyan.zwallet.ui.layout.auth.pin.CreatePinSuccessFragment"
+        android:label="CreatePinSuccessFragment" />
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.bcas_briyan.zwallet.ui.layout.auth.register.OtpFragment"
+        android:label="OtpFragment" />
 </navigation>

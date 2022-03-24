@@ -6,6 +6,6 @@ data class GetInvoiceRequest(
     val name: String,
     val image: String,
     val createdAt: String,
-    val  sender: Int,
+    val sender: Int,
     val reciever: Int
 )

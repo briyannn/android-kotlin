@@ -3,7 +3,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="text_login">Login</string>
+    <string name="text_new_pin">Create Security PIN</string>
     <string name="text_login_desc">Login to your existing account to access all the features in Zwallet.</string>
+    <string name="text_new_pin_desc">Create a PIN that’s contain 6 digits number for security purpose in Zwallet.</string>
     <string name="hint_email">Enter your email address</string>
     <string name="hint_password">Enter your password</string>
     <string name="text_forgot_password">Forgot password?</string>
@@ -43,4 +45,51 @@
     <string name="personalProfileDesc">We got your personal information from the sign up process. If you want to make changes on your information, contact our support</string>
     <string name="otpTitle">Please input your OTP!</string>
     <string name="otpDesc">We have sent your OTP (One Time Password) code via email</string>
+
+
+    <string name="text_confirm">Confirm</string>
+
+    <string name="topup_desc">We provide you virtual account number for top up via nearest ATM.</string>
+    <string name="fisrt_step_topup_desc">Go to the nearest ATM or you can use E-Banking.</string>
+    <string name="second_step_topup_desc">Type your security number on the ATM or E-Banking.</string>
+    <string name="third_step_topup_desc">Select “Transfer” in the menu</string>
+    <string name="fourth_step_topup_desc">Type the virtual account number that we provide you at the top.</string>
+    <string name="fifth_step_topup_desc">Type the amount of the money you want to top up.</string>
+    <string name="sixth_step_topup_desc">Read the summary details</string>
+    <string name="seventh_step_topup_desc">Press transfer / top up</string>
+    <string name="eighth_step_topup_desc">You can see your money in Zwallet within 3 hours.</string>
+
+    <string name="changePin">Change Pin</string>
+    <string name="changePinDesc">Enter your current 6 digits Zwallet PIN below to continue to the next step!</string>
+    <string name="pinSuccess">PIN Succesfully Created</string>
+    <string name="pinSuccessDesc">Your PIN was successfully created and you can now access all the features in Zwallet. Login to your new account and start exploring!</string>
+
+    //Receiver
+    <string name="text_find_receiver">Find Receiver</string>
+
+    <string name="confirmPinDesc">Enter your new 6 digits Zwallet PIN again to continue to the next step!</string>
+    <string name="currentPinDesc">Enter your current 6 digits Zwallet PIN below to continue to the next step!</string>
+    <string name="signUp">Sign Up</string>
+    <string name="hint_username">Enter your username</string>
+    <string name="failedTransaction">We can\'t proceed your transaction at the moment, we recommend you to check your internet connection and try again</string>
+
+    <string name="pinTransfer">Enter PIN to Transfer</string>
+    <string name="pinTransferDesc">Enter your 6 digits PIN for confirmation to continue tour transaction</string>
+
+    <!--    How To Top Up-->
+    <string name="howToTpUp">How To Top Up</string>
+    <string name="one">Go to nearest ATM or you can use E-Banking</string>
+    <string name="two">Type your security number on the ATM or E-Banking</string>
+    <string name="three">Select "Transfer" in the menu</string>
+    <string name="four">Type the virtual account number that we provide you at the top</string>
+    <string name="five">Type the amoint of the money you want to top up</string>
+    <string name="six">Read the summary details</string>
+    <string name="seven">Press transfer / top up</string>
+    <string name="eight">You can see your money in Zwallet within three hours</string>
+
+    <!--    Password-->
+    <string name="changePasswordDesc">You must enter your current password and then </string>
+    <string name="currentPassword">Enter your current password</string>
+    <string name="newPassword">Enter your new password</string>
+    <string name="confirmPassword">Enter your new password again</string>
 </resources>

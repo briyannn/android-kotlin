@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_back_button"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/homeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginVertical="20dp"
+            android:drawableStart="@drawable/ic_baseline_home_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="10dp"
+            android:text="Transaction Details"
+            style="@style/TextView.thirdSizeText"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/success"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_baseline_check_circle_24"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/textTransactionSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction Success"
+        android:textColor="@color/textColorBlack"
+        style="@style/TextView.secondSizeText"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/success"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textTransactionSuccess"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bacground_item_transaction_home">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                style="@style/TextView.fourthSizeText"
+                android:textColor="@color/mainTextColor"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="15dp"/>
+            <TextView
+                android:id="@+id/textAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                style="@style/TextView.fourthSizeText"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/bacground_item_transaction_home">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balance Left"
+                style="@style/TextView.fourthSizeText"
+                android:textColor="@color/mainTextColor"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="15dp"/>
+            <TextView
+                android:id="@+id/textBalanced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balance Left"
+                style="@style/TextView.fourthSizeText"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/info1"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bacground_item_transaction_home">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                style="@style/TextView.fourthSizeText"
+                android:textColor="@color/mainTextColor"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="15dp"/>
+            <TextView
+                android:id="@+id/textDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                style="@style/TextView.fourthSizeText"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/bacground_item_transaction_home">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                style="@style/TextView.fourthSizeText"
+                android:textColor="@color/mainTextColor"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="15dp"/>
+            <TextView
+                android:id="@+id/textTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                style="@style/TextView.fourthSizeText"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="15dp"
+        android:background="@drawable/bacground_item_transaction_home"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/info2">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notes"
+                style="@style/TextView.fourthSizeText"
+                android:gravity="center"
+                android:textColor="@color/mainTextColor"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:id="@+id/textNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notes"
+                style="@style/TextView.fourthSizeText"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textTransferTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transfer To"
+        style="@style/TextView.fourthSizeText"
+        android:textColor="@color/mainTextColor"
+        app:layout_constraintTop_toBottomOf="@id/notes"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/bacground_item_transaction_home"
+        app:layout_constraintTop_toBottomOf="@id/textTransferTo">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_directions_bike_24"
+            android:background="@drawable/background_button_auth"
+            android:padding="5dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginVertical="15dp"
+            android:layout_marginEnd="15dp">
+
+            <TextView
+                android:id="@+id/textUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textStyle="bold"
+                style="@style/TextView.fifthSizeText"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+62822 1234 5678"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

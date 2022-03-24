@@ -71,4 +71,8 @@
         <item name="android:textSize">16dp</item>
         <item name="android:textColor">#7A7886</item>
     </style>
+
+    <style name="TextView.sixthSizeText">
+        <item name="android:textSize">14dp</item>
+    </style>
 </resources>

@@ -3,28 +3,63 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Project/Android/ZWallet/ZWallet/app/src/main/res/layout/fragment_confirmation.xml" value="0.25" />
+        <entry key="..\:/Project/Android/ZWallet/ZWallet/app/src/main/res/layout/fragment_creat_new_pin.xml" value="0.1" />
+        <entry key="..\:/Project/Android/ZWallet/ZWallet/app/src/main/res/layout/fragment_home.xml" value="0.359375" />
+        <entry key="..\:/Project/Android/ZWallet/ZWallet/app/src/main/res/layout/fragment_input_amount.xml" value="0.359375" />
+        <entry key="..\:/Project/Android/ZWallet/ZWallet/app/src/main/res/layout/fragment_otp.xml" value="0.1" />
+        <entry key="..\:/Project/Android/ZWallet/ZWallet/app/src/main/res/layout/fragment_profile.xml" value="0.359375" />
+        <entry key="..\:/Project/Android/ZWallet/ZWallet/app/src/main/res/layout/fragment_search_receiver.xml" value="0.359375" />
+        <entry key="..\:/Project/Android/ZWallet/ZWallet/app/src/main/res/layout/fragment_success_transaction.xml" value="0.1" />
+        <entry key="..\:/Project/Android/ZWallet/ZWallet/app/src/main/res/layout/item_contact_findreceiver.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_change_password.xml" value="0.20380434782608695" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_change_pin.xml" value="0.20380434782608695" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_confirm_change_pin.xml" value="0.20380434782608695" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_confirmation.xml" value="0.2" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_creat_new_pin.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_current_pin.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_failed_transaction.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_input_amount.xml" value="0.20380434782608695" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_otp.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_personal_profile.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_pin_confirmation.xml" value="0.1286231884057971" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/New folder/ZWallet/ZWallet/app/src/main/res/layout/fragment_success_transaction.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/bacground_item_transaction_home.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/background_balance_card.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/background_button.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/background_button_auth.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/background_button_auth_active.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/background_button_menu.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/background_input.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/ic_baseline_add_24.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/ic_baseline_arrow_forward_24.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/ic_baseline_arrow_upward_24.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/ic_baseline_cancel_24.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/ic_baseline_edit_24.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/ic_baseline_home_24.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/ic_baseline_notifications_none_24.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/ic_baseline_person_outline_24.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/background_auth.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/background_back_button.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/background_balanced_home.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/background_button_auth.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/background_image_item.xml" value="0.191" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/background_input.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/background_item_profile_menu.xml" value="0.1575" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/background_item_transaction_home.xml" value="0.1855" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/background_otp_input.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1575" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/ic_baseline_arrow_upward_24.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/ic_baseline_broken_image_24.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/ic_baseline_directions_bike_24.xml" value="0.191" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/drawable/plus.xml" value="0.1575" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/font/nunito_font.xml" value="0.10625" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/font/nunito_font_bold.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/font/nunito_font_medium.xml" value="0.1" />
@@ -35,14 +70,31 @@
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/activity_spalsh_screen.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/content_main.xml" value="0.1" />
-        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_change_new_password.xml" value="0.22" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_change_new_password.xml" value="0.25" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_change_password.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_change_pin.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_confirm_change_pin.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_confirmation.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_creat_new_pin.xml" value="0.33" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_create_pin_success.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_current_pin.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_failed_transaction.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_forgot_password.xml" value="0.25" />
-        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_input_amount.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_login.xml" value="0.20675105485232068" />
-        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_personal_profile.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_otp.xml" value="0.2" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_personal_profile.xml" value="0.25" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_pin_confirmation.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
-        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_register.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_register.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_search_receiver.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_success_transaction.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_top_up.xml" value="0.1" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/fragment_topup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/item_contact_findreceiver.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/item_transaction_home.xml" value="0.25" />
+        <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/list_transaction_home.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/layout/loading_dialog.xml" value="0.1" />
         <entry key="..\:/Users/briyan_dwi/AndroidStudioProjects/ZWallet/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>

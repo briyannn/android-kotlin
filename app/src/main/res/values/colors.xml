@@ -20,5 +20,9 @@
     <color name="darkGrey">#7A7886</color>
 
     <color name="mainTextColor">#514F5B</color>
+    <color name="greyText">#9c9ea0</color>
+
+    <color name="textColorBlack">#3A3D42</color>
+    <color name="textColorGrey">#3A3D42</color>
 
 </resources>
